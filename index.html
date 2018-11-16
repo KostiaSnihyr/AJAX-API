@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="style.css">
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script> -->
+	<title>DB2 Test2</title>
+</head>
+<body>
+	<div class="wrapper">
+
+		<div class="tab">
+			<div class="container js-buttons">
+				<button class="tablinks" data-id="films">films</button>
+				<button class="tablinks" data-id="people">people</button>
+				<button class="tablinks" data-id="planets">planets</button>
+				<button class="tablinks" data-id="species">species</button>
+				<button class="tablinks" data-id="starships">starships</button>
+				<button class="tablinks" data-id="vehicles">vehicles</button>
+			</div>
+		</div>
+
+		<div class="search-bar">
+			<input id="searchInput" type="text" name="search" value="" autocomplete="off" placeholder="Search input with live updates" onkeyup="searchFunction()">
+		</div>
+
+		<div class="tabcontent">
+			<h2 class="js-content-h2"></h2>
+			<ul class="ul-content js-content-ul"></ul>
+		</div>
+
+		<div class="tabcontent">
+			<h2 class="js-inner-content-h2"></h2>
+			<div class="ul-content js-inner-content"></div>
+		</div>
+
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>
